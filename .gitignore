@@ -1,0 +1,60 @@
+
+# === C and C++ ===
+*.o
+*.obj
+*.so
+*.a
+*.out
+*.exe
+*.gch
+*.gcno
+*.gcda
+*.gcov
+*.dSYM/
+*.dll
+
+# Code::Blocks
+*.depend
+*.layout
+
+# CLion and CMake
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+compile_commands.json
+*.dir/
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+*.log
+*.sqlite3
+.env
+.venv
+env/
+venv/
+ENV/
+build/
+dist/
+*.spec
+.mypy_cache/
+.pytest_cache/
+.coverage
+.tox/
+.ipynb_checkpoints/
+.DS_Store
+
+# === OS/Editor Specific ===
+*.swp
+*.swo
+*~
+*.bak
+*.tmp
+*.orig
+.idea/
+.vscode/
